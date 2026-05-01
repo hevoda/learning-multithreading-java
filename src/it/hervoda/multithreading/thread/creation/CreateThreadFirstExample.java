@@ -1,4 +1,4 @@
-package it.hervoda.multithreading;
+package it.hervoda.multithreading.thread.creation;
 
 
 public class CreateThreadFirstExample {
