@@ -4,6 +4,16 @@ public class SharedResource {
 
     private  volatile boolean flag = false;
 
+    private  int counter;
+
+    public void increment(){
+        counter++;
+    }
+
+    public int getCounter() {
+        return counter;
+    }
+
     public  boolean isFlag() {
         return flag;
     }

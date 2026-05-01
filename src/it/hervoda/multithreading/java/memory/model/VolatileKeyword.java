@@ -2,7 +2,7 @@ package it.hervoda.multithreading.java.memory.model;
 
 public class VolatileKeyword {
 
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
 
         SharedResource sharedObject = new SharedResource();
 
