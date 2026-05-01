@@ -1,10 +1,10 @@
 package it.hervoda.multithreading.java.memory.model;
 
-public class VolatileKeyword {
+public class Volatile {
 
     public static void main(String[] args) {
 
-        SharedResource sharedObject = new SharedResource();
+        SharedVolatileResource sharedObject = new SharedVolatileResource();
 
         new Thread (() ->{
             System.out.println("Thread 1 started ...");
